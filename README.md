@@ -38,7 +38,7 @@ AI-Driven Sentiment Analysis for Public Perception of Emerging Technologies
 
 `.venv\Scripts\activate`
 
-`pip install selenium vaderSentiment requests tqdm`
+`pip install selenium vaderSentiment requests tqdm twscrape`
 
 #### Then, run the Automated Selenium Processing script in order to process YouTube videos and output processed JSON files accordingly.
 
