@@ -76,7 +76,7 @@ def convert(input_file: str, output_folder: str):
                 "type": category,
                 "value": value,
                 "percentage": percentage,
-                "avg_score": avg_score  # Optional: include avg in each row
+                "avg_score": avg_score 
             })
             
     # Sort questions by average answer

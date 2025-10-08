@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "description": "A diverging stacked bar chart for sentiments towards a set of eight questions, displayed as percentages with neutral responses straddling the 0% mark",
   "data": {
-    "url": "data/likert_responses_sorted.json",
+    "url": "data/likert_responses_categorised.json",
     "format": {
       "type": "json"
     }
@@ -13,14 +13,39 @@
       "value": "All",
       "bind": {
         "input": "select",
-        "options": ["All", "Positive", "Negative"],
-        "labels": ["All", "Agree on Average", "Disagree on Average"]
+        "options": [
+          "All",
+          "Agree",
+          "Disagree",
+          "Neutral",
+          "Positive",
+          "Negative",
+          "Privacy",
+          "Data",
+          "Accountability",
+          "Transparency",
+          "Bias"
+        ],
+        "labels": [
+          "All",
+          "Agree on Average",
+          "Disagree on Average",
+          "Neutral Statements",
+          "Positive Statements",
+          "Negative Statements",
+          "Privacy",
+          "Data Misuse",
+          "Accountability",
+          "Transparency",
+          "Bias"
+        ],
+        "name": "Category: "
       }
     }
   ],
   "transform": [
     {
-      "filter": "selectedQuestion === 'All' || (selectedQuestion === 'Positive' && datum.avg_score > 3) || (selectedQuestion === 'Negative' && datum.avg_score <= 3)"
+      "filter": "selectedQuestion === 'All' || (selectedQuestion === 'Agree' && datum.avg_score > 3) || (selectedQuestion === 'Disagree' && datum.avg_score <= 3) || (selectedQuestion === 'Neutral' && datum.sentiment == 'neutral') || (selectedQuestion === 'Positive' && datum.sentiment == 'positive') || (selectedQuestion === 'Negative' && datum.sentiment == 'negative') || (selectedQuestion === 'Privacy' && datum.category == 'privacy') || (selectedQuestion === 'Data' && datum.category == 'data_misuse') || (selectedQuestion === 'Accountability' && datum.category == 'accountability') || (selectedQuestion === 'Transparency' && datum.category == 'transparency') || (selectedQuestion === 'Bias' && datum.category == 'bias')"
     },
     {
       "calculate": "if(datum.type === 'Strongly disagree',-2,0) + if(datum.type==='Disagree',-1,0) + if(datum.type =='Neutral',0,0) + if(datum.type ==='Agree',1,0) + if(datum.type ==='Strongly agree',2,0)",
@@ -51,7 +76,8 @@
     "x": {
       "field": "nx",
       "type": "quantitative",
-      "title": "Percentage"
+      "title": "Percentage",
+      "scale": { "domain": [-100, 100] }
     },
     "x2": { "field": "nx2" },
     "y": {

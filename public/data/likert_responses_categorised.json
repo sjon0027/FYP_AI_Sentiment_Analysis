@@ -1,0 +1,722 @@
+[
+  {
+    "question": "I find it easy to access and understand information about how AI is being used by law enforcement in Australia.",
+    "type": "Strongly disagree",
+    "value": 5,
+    "percentage": 15.6,
+    "avg_score": 2.34,
+    "sentiment": "positive",
+    "category": "transparency"
+  },
+  {
+    "question": "I find it easy to access and understand information about how AI is being used by law enforcement in Australia.",
+    "type": "Disagree",
+    "value": 12,
+    "percentage": 37.5,
+    "avg_score": 2.34,
+    "sentiment": "positive",
+    "category": "transparency"
+  },
+  {
+    "question": "I find it easy to access and understand information about how AI is being used by law enforcement in Australia.",
+    "type": "Neutral",
+    "value": 14,
+    "percentage": 43.8,
+    "avg_score": 2.34,
+    "sentiment": "positive",
+    "category": "transparency"
+  },
+  {
+    "question": "I find it easy to access and understand information about how AI is being used by law enforcement in Australia.",
+    "type": "Agree",
+    "value": 1,
+    "percentage": 3.1,
+    "avg_score": 2.34,
+    "sentiment": "positive",
+    "category": "transparency"
+  },
+  {
+    "question": "I find it easy to access and understand information about how AI is being used by law enforcement in Australia.",
+    "type": "Strongly agree",
+    "value": 0,
+    "percentage": 0.0,
+    "avg_score": 2.34,
+    "sentiment": "positive",
+    "category": "transparency"
+  },
+  {
+    "question": "I believe there are adequate legal safeguards in Australia to regulate the use of AI in policing and security.",
+    "type": "Strongly disagree",
+    "value": 4,
+    "percentage": 12.5,
+    "avg_score": 2.53,
+    "sentiment": "positive",
+    "category": "accountability"
+  },
+  {
+    "question": "I believe there are adequate legal safeguards in Australia to regulate the use of AI in policing and security.",
+    "type": "Disagree",
+    "value": 11,
+    "percentage": 34.4,
+    "avg_score": 2.53,
+    "sentiment": "positive",
+    "category": "accountability"
+  },
+  {
+    "question": "I believe there are adequate legal safeguards in Australia to regulate the use of AI in policing and security.",
+    "type": "Neutral",
+    "value": 13,
+    "percentage": 40.6,
+    "avg_score": 2.53,
+    "sentiment": "positive",
+    "category": "accountability"
+  },
+  {
+    "question": "I believe there are adequate legal safeguards in Australia to regulate the use of AI in policing and security.",
+    "type": "Agree",
+    "value": 4,
+    "percentage": 12.5,
+    "avg_score": 2.53,
+    "sentiment": "positive",
+    "category": "accountability"
+  },
+  {
+    "question": "I believe there are adequate legal safeguards in Australia to regulate the use of AI in policing and security.",
+    "type": "Strongly agree",
+    "value": 0,
+    "percentage": 0.0,
+    "avg_score": 2.53,
+    "sentiment": "positive",
+    "category": "accountability"
+  },
+  {
+    "question": "I would feel safer if AI technologies were widely used in national security in Australia.",
+    "type": "Strongly disagree",
+    "value": 1,
+    "percentage": 3.1,
+    "avg_score": 3.03,
+    "sentiment": "positive",
+    "category": ""
+  },
+  {
+    "question": "I would feel safer if AI technologies were widely used in national security in Australia.",
+    "type": "Disagree",
+    "value": 8,
+    "percentage": 25.0,
+    "avg_score": 3.03,
+    "sentiment": "positive",
+    "category": ""
+  },
+  {
+    "question": "I would feel safer if AI technologies were widely used in national security in Australia.",
+    "type": "Neutral",
+    "value": 14,
+    "percentage": 43.8,
+    "avg_score": 3.03,
+    "sentiment": "positive",
+    "category": ""
+  },
+  {
+    "question": "I would feel safer if AI technologies were widely used in national security in Australia.",
+    "type": "Agree",
+    "value": 7,
+    "percentage": 21.9,
+    "avg_score": 3.03,
+    "sentiment": "positive",
+    "category": ""
+  },
+  {
+    "question": "I would feel safer if AI technologies were widely used in national security in Australia.",
+    "type": "Strongly agree",
+    "value": 2,
+    "percentage": 6.2,
+    "avg_score": 3.03,
+    "sentiment": "positive",
+    "category": ""
+  },
+  {
+    "question": "AI increases the risk of misuse or abuse of power.",
+    "type": "Strongly disagree",
+    "value": 0,
+    "percentage": 0.0,
+    "avg_score": 3.34,
+    "sentiment": "negative",
+    "category": ""
+  },
+  {
+    "question": "AI increases the risk of misuse or abuse of power.",
+    "type": "Disagree",
+    "value": 8,
+    "percentage": 25.0,
+    "avg_score": 3.34,
+    "sentiment": "negative",
+    "category": ""
+  },
+  {
+    "question": "AI increases the risk of misuse or abuse of power.",
+    "type": "Neutral",
+    "value": 9,
+    "percentage": 28.1,
+    "avg_score": 3.34,
+    "sentiment": "negative",
+    "category": ""
+  },
+  {
+    "question": "AI increases the risk of misuse or abuse of power.",
+    "type": "Agree",
+    "value": 11,
+    "percentage": 34.4,
+    "avg_score": 3.34,
+    "sentiment": "negative",
+    "category": ""
+  },
+  {
+    "question": "AI increases the risk of misuse or abuse of power.",
+    "type": "Strongly agree",
+    "value": 4,
+    "percentage": 12.5,
+    "avg_score": 3.34,
+    "sentiment": "negative",
+    "category": ""
+  },
+  {
+    "question": "I am more concerned about the use of AI by law enforcement than its use in other areas (e.g., healthcare, education, business",
+    "type": "Strongly disagree",
+    "value": 0,
+    "percentage": 0.0,
+    "avg_score": 3.34,
+    "sentiment": "other",
+    "category": "other"
+  },
+  {
+    "question": "I am more concerned about the use of AI by law enforcement than its use in other areas (e.g., healthcare, education, business",
+    "type": "Disagree",
+    "value": 9,
+    "percentage": 28.1,
+    "avg_score": 3.34,
+    "sentiment": "other",
+    "category": "other"
+  },
+  {
+    "question": "I am more concerned about the use of AI by law enforcement than its use in other areas (e.g., healthcare, education, business",
+    "type": "Neutral",
+    "value": 9,
+    "percentage": 28.1,
+    "avg_score": 3.34,
+    "sentiment": "other",
+    "category": "other"
+  },
+  {
+    "question": "I am more concerned about the use of AI by law enforcement than its use in other areas (e.g., healthcare, education, business",
+    "type": "Agree",
+    "value": 8,
+    "percentage": 25.0,
+    "avg_score": 3.34,
+    "sentiment": "other",
+    "category": "other"
+  },
+  {
+    "question": "I am more concerned about the use of AI by law enforcement than its use in other areas (e.g., healthcare, education, business",
+    "type": "Strongly agree",
+    "value": 6,
+    "percentage": 18.8,
+    "avg_score": 3.34,
+    "sentiment": "other",
+    "category": "other"
+  },
+  {
+    "question": "AI decision-making can reinforce bias or discrimination.",
+    "type": "Strongly disagree",
+    "value": 0,
+    "percentage": 0.0,
+    "avg_score": 3.44,
+    "sentiment": "negative",
+    "category": "bias"
+  },
+  {
+    "question": "AI decision-making can reinforce bias or discrimination.",
+    "type": "Disagree",
+    "value": 6,
+    "percentage": 18.8,
+    "avg_score": 3.44,
+    "sentiment": "negative",
+    "category": "bias"
+  },
+  {
+    "question": "AI decision-making can reinforce bias or discrimination.",
+    "type": "Neutral",
+    "value": 9,
+    "percentage": 28.1,
+    "avg_score": 3.44,
+    "sentiment": "negative",
+    "category": "bias"
+  },
+  {
+    "question": "AI decision-making can reinforce bias or discrimination.",
+    "type": "Agree",
+    "value": 14,
+    "percentage": 43.8,
+    "avg_score": 3.44,
+    "sentiment": "negative",
+    "category": "bias"
+  },
+  {
+    "question": "AI decision-making can reinforce bias or discrimination.",
+    "type": "Strongly agree",
+    "value": 3,
+    "percentage": 9.4,
+    "avg_score": 3.44,
+    "sentiment": "negative",
+    "category": "bias"
+  },
+  {
+    "question": "AI in law enforcement reduces my trust because of increased monitoring (e.g., facial recognition, tracking).",
+    "type": "Strongly disagree",
+    "value": 2,
+    "percentage": 6.2,
+    "avg_score": 3.5,
+    "sentiment": "negative",
+    "category": "privacy"
+  },
+  {
+    "question": "AI in law enforcement reduces my trust because of increased monitoring (e.g., facial recognition, tracking).",
+    "type": "Disagree",
+    "value": 3,
+    "percentage": 9.4,
+    "avg_score": 3.5,
+    "sentiment": "negative",
+    "category": "privacy"
+  },
+  {
+    "question": "AI in law enforcement reduces my trust because of increased monitoring (e.g., facial recognition, tracking).",
+    "type": "Neutral",
+    "value": 8,
+    "percentage": 25.0,
+    "avg_score": 3.5,
+    "sentiment": "negative",
+    "category": "privacy"
+  },
+  {
+    "question": "AI in law enforcement reduces my trust because of increased monitoring (e.g., facial recognition, tracking).",
+    "type": "Agree",
+    "value": 15,
+    "percentage": 46.9,
+    "avg_score": 3.5,
+    "sentiment": "negative",
+    "category": "privacy"
+  },
+  {
+    "question": "AI in law enforcement reduces my trust because of increased monitoring (e.g., facial recognition, tracking).",
+    "type": "Strongly agree",
+    "value": 4,
+    "percentage": 12.5,
+    "avg_score": 3.5,
+    "sentiment": "negative",
+    "category": "privacy"
+  },
+  {
+    "question": "AI in law enforcement threatens personal privacy.",
+    "type": "Strongly disagree",
+    "value": 2,
+    "percentage": 6.2,
+    "avg_score": 3.53,
+    "sentiment": "negative",
+    "category": "privacy"
+  },
+  {
+    "question": "AI in law enforcement threatens personal privacy.",
+    "type": "Disagree",
+    "value": 2,
+    "percentage": 6.2,
+    "avg_score": 3.53,
+    "sentiment": "negative",
+    "category": "privacy"
+  },
+  {
+    "question": "AI in law enforcement threatens personal privacy.",
+    "type": "Neutral",
+    "value": 8,
+    "percentage": 25.0,
+    "avg_score": 3.53,
+    "sentiment": "negative",
+    "category": "privacy"
+  },
+  {
+    "question": "AI in law enforcement threatens personal privacy.",
+    "type": "Agree",
+    "value": 17,
+    "percentage": 53.1,
+    "avg_score": 3.53,
+    "sentiment": "negative",
+    "category": "privacy"
+  },
+  {
+    "question": "AI in law enforcement threatens personal privacy.",
+    "type": "Strongly agree",
+    "value": 3,
+    "percentage": 9.4,
+    "avg_score": 3.53,
+    "sentiment": "negative",
+    "category": "privacy"
+  },
+  {
+    "question": "AI in law enforcement reduces my trust because of how personal data is collected and used.",
+    "type": "Strongly disagree",
+    "value": 1,
+    "percentage": 3.1,
+    "avg_score": 3.53,
+    "sentiment": "negative",
+    "category": "data_misuse"
+  },
+  {
+    "question": "AI in law enforcement reduces my trust because of how personal data is collected and used.",
+    "type": "Disagree",
+    "value": 5,
+    "percentage": 15.6,
+    "avg_score": 3.53,
+    "sentiment": "negative",
+    "category": "data_misuse"
+  },
+  {
+    "question": "AI in law enforcement reduces my trust because of how personal data is collected and used.",
+    "type": "Neutral",
+    "value": 5,
+    "percentage": 15.6,
+    "avg_score": 3.53,
+    "sentiment": "negative",
+    "category": "data_misuse"
+  },
+  {
+    "question": "AI in law enforcement reduces my trust because of how personal data is collected and used.",
+    "type": "Agree",
+    "value": 18,
+    "percentage": 56.2,
+    "avg_score": 3.53,
+    "sentiment": "negative",
+    "category": "data_misuse"
+  },
+  {
+    "question": "AI in law enforcement reduces my trust because of how personal data is collected and used.",
+    "type": "Strongly agree",
+    "value": 3,
+    "percentage": 9.4,
+    "avg_score": 3.53,
+    "sentiment": "negative",
+    "category": "data_misuse"
+  },
+  {
+    "question": "I believe AI can make law enforcement more effective in preventing crime.",
+    "type": "Strongly disagree",
+    "value": 1,
+    "percentage": 3.1,
+    "avg_score": 3.59,
+    "sentiment": "positive",
+    "category": ""
+  },
+  {
+    "question": "I believe AI can make law enforcement more effective in preventing crime.",
+    "type": "Disagree",
+    "value": 3,
+    "percentage": 9.4,
+    "avg_score": 3.59,
+    "sentiment": "positive",
+    "category": ""
+  },
+  {
+    "question": "I believe AI can make law enforcement more effective in preventing crime.",
+    "type": "Neutral",
+    "value": 11,
+    "percentage": 34.4,
+    "avg_score": 3.59,
+    "sentiment": "positive",
+    "category": ""
+  },
+  {
+    "question": "I believe AI can make law enforcement more effective in preventing crime.",
+    "type": "Agree",
+    "value": 10,
+    "percentage": 31.2,
+    "avg_score": 3.59,
+    "sentiment": "positive",
+    "category": ""
+  },
+  {
+    "question": "I believe AI can make law enforcement more effective in preventing crime.",
+    "type": "Strongly agree",
+    "value": 7,
+    "percentage": 21.9,
+    "avg_score": 3.59,
+    "sentiment": "positive",
+    "category": ""
+  },
+  {
+    "question": "I believe AI could reduce human bias in policing compared to traditional methods.",
+    "type": "Strongly disagree",
+    "value": 1,
+    "percentage": 3.1,
+    "avg_score": 3.69,
+    "sentiment": "positive",
+    "category": "bias"
+  },
+  {
+    "question": "I believe AI could reduce human bias in policing compared to traditional methods.",
+    "type": "Disagree",
+    "value": 0,
+    "percentage": 0.0,
+    "avg_score": 3.69,
+    "sentiment": "positive",
+    "category": "bias"
+  },
+  {
+    "question": "I believe AI could reduce human bias in policing compared to traditional methods.",
+    "type": "Neutral",
+    "value": 9,
+    "percentage": 28.1,
+    "avg_score": 3.69,
+    "sentiment": "positive",
+    "category": "bias"
+  },
+  {
+    "question": "I believe AI could reduce human bias in policing compared to traditional methods.",
+    "type": "Agree",
+    "value": 20,
+    "percentage": 62.5,
+    "avg_score": 3.69,
+    "sentiment": "positive",
+    "category": "bias"
+  },
+  {
+    "question": "I believe AI could reduce human bias in policing compared to traditional methods.",
+    "type": "Strongly agree",
+    "value": 2,
+    "percentage": 6.2,
+    "avg_score": 3.69,
+    "sentiment": "positive",
+    "category": "bias"
+  },
+  {
+    "question": "There is not enough accountability for how AI is used in law enforcement.",
+    "type": "Strongly disagree",
+    "value": 0,
+    "percentage": 0.0,
+    "avg_score": 3.94,
+    "sentiment": "negative",
+    "category": "accountability"
+  },
+  {
+    "question": "There is not enough accountability for how AI is used in law enforcement.",
+    "type": "Disagree",
+    "value": 2,
+    "percentage": 6.2,
+    "avg_score": 3.94,
+    "sentiment": "negative",
+    "category": "accountability"
+  },
+  {
+    "question": "There is not enough accountability for how AI is used in law enforcement.",
+    "type": "Neutral",
+    "value": 7,
+    "percentage": 21.9,
+    "avg_score": 3.94,
+    "sentiment": "negative",
+    "category": "accountability"
+  },
+  {
+    "question": "There is not enough accountability for how AI is used in law enforcement.",
+    "type": "Agree",
+    "value": 14,
+    "percentage": 43.8,
+    "avg_score": 3.94,
+    "sentiment": "negative",
+    "category": "accountability"
+  },
+  {
+    "question": "There is not enough accountability for how AI is used in law enforcement.",
+    "type": "Strongly agree",
+    "value": 9,
+    "percentage": 28.1,
+    "avg_score": 3.94,
+    "sentiment": "negative",
+    "category": "accountability"
+  },
+  {
+    "question": "The government should involve the public in decisions about how AI is used in law enforcement.",
+    "type": "Strongly disagree",
+    "value": 0,
+    "percentage": 0.0,
+    "avg_score": 4.22,
+    "sentiment": "neutral",
+    "category": ""
+  },
+  {
+    "question": "The government should involve the public in decisions about how AI is used in law enforcement.",
+    "type": "Disagree",
+    "value": 1,
+    "percentage": 3.1,
+    "avg_score": 4.22,
+    "sentiment": "neutral",
+    "category": ""
+  },
+  {
+    "question": "The government should involve the public in decisions about how AI is used in law enforcement.",
+    "type": "Neutral",
+    "value": 6,
+    "percentage": 18.8,
+    "avg_score": 4.22,
+    "sentiment": "neutral",
+    "category": ""
+  },
+  {
+    "question": "The government should involve the public in decisions about how AI is used in law enforcement.",
+    "type": "Agree",
+    "value": 10,
+    "percentage": 31.2,
+    "avg_score": 4.22,
+    "sentiment": "neutral",
+    "category": ""
+  },
+  {
+    "question": "The government should involve the public in decisions about how AI is used in law enforcement.",
+    "type": "Strongly agree",
+    "value": 15,
+    "percentage": 46.9,
+    "avg_score": 4.22,
+    "sentiment": "neutral",
+    "category": ""
+  },
+  {
+    "question": "Information about how AI is used in law enforcement should be easily accessible to the public.",
+    "type": "Strongly disagree",
+    "value": 0,
+    "percentage": 0.0,
+    "avg_score": 4.41,
+    "sentiment": "neutral",
+    "category": "transparency"
+  },
+  {
+    "question": "Information about how AI is used in law enforcement should be easily accessible to the public.",
+    "type": "Disagree",
+    "value": 1,
+    "percentage": 3.1,
+    "avg_score": 4.41,
+    "sentiment": "neutral",
+    "category": "transparency"
+  },
+  {
+    "question": "Information about how AI is used in law enforcement should be easily accessible to the public.",
+    "type": "Neutral",
+    "value": 2,
+    "percentage": 6.2,
+    "avg_score": 4.41,
+    "sentiment": "neutral",
+    "category": "transparency"
+  },
+  {
+    "question": "Information about how AI is used in law enforcement should be easily accessible to the public.",
+    "type": "Agree",
+    "value": 12,
+    "percentage": 37.5,
+    "avg_score": 4.41,
+    "sentiment": "neutral",
+    "category": "transparency"
+  },
+  {
+    "question": "Information about how AI is used in law enforcement should be easily accessible to the public.",
+    "type": "Strongly agree",
+    "value": 17,
+    "percentage": 53.1,
+    "avg_score": 4.41,
+    "sentiment": "neutral",
+    "category": "transparency"
+  },
+  {
+    "question": "If an AI system makes an incorrect or unfair decision, it should be easy for people to challenge or appeal that decision.",
+    "type": "Strongly disagree",
+    "value": 1,
+    "percentage": 3.2,
+    "avg_score": 4.42,
+    "sentiment": "neutral",
+    "category": "accountability"
+  },
+  {
+    "question": "If an AI system makes an incorrect or unfair decision, it should be easy for people to challenge or appeal that decision.",
+    "type": "Disagree",
+    "value": 0,
+    "percentage": 0.0,
+    "avg_score": 4.42,
+    "sentiment": "neutral",
+    "category": "accountability"
+  },
+  {
+    "question": "If an AI system makes an incorrect or unfair decision, it should be easy for people to challenge or appeal that decision.",
+    "type": "Neutral",
+    "value": 3,
+    "percentage": 9.7,
+    "avg_score": 4.42,
+    "sentiment": "neutral",
+    "category": "accountability"
+  },
+  {
+    "question": "If an AI system makes an incorrect or unfair decision, it should be easy for people to challenge or appeal that decision.",
+    "type": "Agree",
+    "value": 8,
+    "percentage": 25.8,
+    "avg_score": 4.42,
+    "sentiment": "neutral",
+    "category": "accountability"
+  },
+  {
+    "question": "If an AI system makes an incorrect or unfair decision, it should be easy for people to challenge or appeal that decision.",
+    "type": "Strongly agree",
+    "value": 19,
+    "percentage": 61.3,
+    "avg_score": 4.42,
+    "sentiment": "neutral",
+    "category": "accountability"
+  },
+  {
+    "question": "AI decisions in policing should always be subject to human review.",
+    "type": "Strongly disagree",
+    "value": 0,
+    "percentage": 0.0,
+    "avg_score": 4.69,
+    "sentiment": "neutral",
+    "category": ""
+  },
+  {
+    "question": "AI decisions in policing should always be subject to human review.",
+    "type": "Disagree",
+    "value": 0,
+    "percentage": 0.0,
+    "avg_score": 4.69,
+    "sentiment": "neutral",
+    "category": ""
+  },
+  {
+    "question": "AI decisions in policing should always be subject to human review.",
+    "type": "Neutral",
+    "value": 0,
+    "percentage": 0.0,
+    "avg_score": 4.69,
+    "sentiment": "neutral",
+    "category": ""
+  },
+  {
+    "question": "AI decisions in policing should always be subject to human review.",
+    "type": "Agree",
+    "value": 10,
+    "percentage": 31.2,
+    "avg_score": 4.69,
+    "sentiment": "neutral",
+    "category": ""
+  },
+  {
+    "question": "AI decisions in policing should always be subject to human review.",
+    "type": "Strongly agree",
+    "value": 22,
+    "percentage": 68.8,
+    "avg_score": 4.69,
+    "sentiment": "neutral",
+    "category": ""
+  }
+]
