@@ -97,8 +97,8 @@
     }
   ],
 
-  "width": 700,
-  "height": 500,
+  "width": 400,
+  "height": 400,
   "config": {
     "axis": { "labelFontSize": 12, "titleFontSize": 14 },
     "legend": { "labelFontSize": 12, "titleFontSize": 13 }

@@ -11,10 +11,10 @@
     "type": "bar",
     "cornerRadiusTopLeft": 3,
     "cornerRadiusTopRight": 3,
-    "color": "#8b5cf6"
+    "color": "#137784"
   },
-  "width": 500,
-  "height": 300,
+  "width": 400,
+  "height": 200,
   "encoding": {
     "x": {
       "field": "q2",

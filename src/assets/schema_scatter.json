@@ -29,7 +29,7 @@
       "field": "q2",
       "type": "quantitative",
       "title": "Q2: Familiarity",
-      "scale": { "scheme": "spectral" }
+      "scale": { "scheme": "redyellowgreen" }
     },
     "tooltip": [
       { "field": "q1", "type": "quantitative", "title": "Q1: Overall Feeling" },
@@ -38,6 +38,6 @@
       { "field": "q4", "type": "nominal", "title": "Q4: Open-Ended Response" }
     ]
   },
-  "width": 600,
+  "width": 400,
   "height": 400
 }
