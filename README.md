@@ -6,7 +6,7 @@ This Project is an extension of a separate project: AI-Driven Sentiment Analysis
 
 We are conducting research to better understand how Australians feel about the use of Artificial Intelligence (AI) in law enforcement and national security. We have conducted an online survey, and this repository is used to showcase the results, presenting both scaled-response data and an analysis of open-ended responses.
 
-This project is in progress, currently the Ethics Application is not approved within our university, so we do not have real data, as our survey has not been distributed yet, you are witnessing results on fake data as we prepare for real entries!
+You will also be implementing a Policy Gap Identifier where we will map people's concerns to existing guidelines.
 
 ## Team Members
 
@@ -44,7 +44,7 @@ You can access the deployed website here: https://kamlesa.github.io/FYP_2025/
 ## Want to Help?
 
 If you're an Australian over 18, feel free to fill in our online survey!
-[insert link]
+https://forms.cloud.microsoft/r/8PTPKdcxSy
 
 # Run Locally
 
