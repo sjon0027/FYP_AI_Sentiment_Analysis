@@ -1,0 +1,248 @@
+{
+  "In your opinion, what are the main benefits of AI in law enforcement?": [
+    {
+      "key": "efficient",
+      "value": "1.0"
+    },
+    {
+      "key": "efficiency",
+      "value": "1.0"
+    },
+    {
+      "key": "efficient accurate",
+      "value": "0.6516513205438883"
+    },
+    {
+      "key": "management",
+      "value": "0.6335480731309335"
+    },
+    {
+      "key": "time management",
+      "value": "0.6335480731309335"
+    },
+    {
+      "key": "data analysis",
+      "value": "0.6133376208853409"
+    },
+    {
+      "key": "analysis",
+      "value": "0.6133376208853409"
+    },
+    {
+      "key": "accurate",
+      "value": "0.5797375526634307"
+    },
+    {
+      "key": "data",
+      "value": "0.4976283006556396"
+    },
+    {
+      "key": "workload",
+      "value": "0.4922564867099526"
+    },
+    {
+      "key": "reduce workload",
+      "value": "0.4922564867099526"
+    },
+    {
+      "key": "efficiency reduce",
+      "value": "0.4922564867099526"
+    },
+    {
+      "key": "sure",
+      "value": "0.4740589663848469"
+    },
+    {
+      "key": "sure information",
+      "value": "0.4740589663848469"
+    },
+    {
+      "key": "information ai",
+      "value": "0.4740589663848469"
+    },
+    {
+      "key": "prejudiced",
+      "value": "0.4671198102668759"
+    },
+    {
+      "key": "prejudiced person",
+      "value": "0.4671198102668759"
+    },
+    {
+      "key": "ai prejudiced",
+      "value": "0.4671198102668759"
+    },
+    {
+      "key": "easier",
+      "value": "0.4472135954999579"
+    },
+    {
+      "key": "criminals easier",
+      "value": "0.4472135954999579"
+    }
+  ],
+  "What concerns, if any, do you have about the use of AI in law enforcement?": [
+    {
+      "key": "safeguards",
+      "value": "1.0"
+    },
+    {
+      "key": "privacy",
+      "value": "1.0"
+    },
+    {
+      "key": "misuse",
+      "value": "1.0"
+    },
+    {
+      "key": "issues",
+      "value": "0.6409302216417979"
+    },
+    {
+      "key": "privacy issues",
+      "value": "0.6409302216417979"
+    },
+    {
+      "key": "collect",
+      "value": "0.6133376208853409"
+    },
+    {
+      "key": "information collect",
+      "value": "0.6133376208853409"
+    },
+    {
+      "key": "transparency",
+      "value": "0.5773502691896257"
+    },
+    {
+      "key": "lack",
+      "value": "0.5773502691896257"
+    },
+    {
+      "key": "lack transparency",
+      "value": "0.5773502691896257"
+    },
+    {
+      "key": "information",
+      "value": "0.4976283006556396"
+    },
+    {
+      "key": "misuse comes",
+      "value": "0.48645873513711685"
+    },
+    {
+      "key": "comes privacy",
+      "value": "0.48645873513711685"
+    },
+    {
+      "key": "comes",
+      "value": "0.48645873513711685"
+    },
+    {
+      "key": "technology",
+      "value": "0.4850712500726658"
+    },
+    {
+      "key": "data",
+      "value": "0.41236052533271383"
+    },
+    {
+      "key": "protection",
+      "value": "0.39668538556188687"
+    },
+    {
+      "key": "biases",
+      "value": "0.39668538556188687"
+    },
+    {
+      "key": "protection potential",
+      "value": "0.39668538556188687"
+    },
+    {
+      "key": "potential biases",
+      "value": "0.39668538556188687"
+    }
+  ],
+  "What kinds of rules or safeguards would make you feel more comfortable with the use of AI in policing?": [
+    {
+      "key": "transparency",
+      "value": "1.0"
+    },
+    {
+      "key": "reviews",
+      "value": "0.6524882108570533"
+    },
+    {
+      "key": "human reviews",
+      "value": "0.6524882108570533"
+    },
+    {
+      "key": "checking",
+      "value": "0.6524882108570533"
+    },
+    {
+      "key": "human checking",
+      "value": "0.6524882108570533"
+    },
+    {
+      "key": "rules",
+      "value": "0.6471519524323016"
+    },
+    {
+      "key": "transparency rules",
+      "value": "0.6471519524323016"
+    },
+    {
+      "key": "legislation",
+      "value": "0.6133376208853409"
+    },
+    {
+      "key": "clear legislation",
+      "value": "0.6133376208853409"
+    },
+    {
+      "key": "limit ai",
+      "value": "0.5371796336969823"
+    },
+    {
+      "key": "limit",
+      "value": "0.5371796336969823"
+    },
+    {
+      "key": "transparency decision",
+      "value": "0.5155638851666012"
+    },
+    {
+      "key": "independent oversight",
+      "value": "0.5018429810459774"
+    },
+    {
+      "key": "transparency independent",
+      "value": "0.5018429810459774"
+    },
+    {
+      "key": "clear",
+      "value": "0.4976283006556396"
+    },
+    {
+      "key": "used big",
+      "value": "0.4718564068448902"
+    },
+    {
+      "key": "cases",
+      "value": "0.4718564068448902"
+    },
+    {
+      "key": "big cases",
+      "value": "0.4718564068448902"
+    },
+    {
+      "key": "big",
+      "value": "0.4718564068448902"
+    },
+    {
+      "key": "making",
+      "value": "0.4586682104452289"
+    }
+  ]
+}

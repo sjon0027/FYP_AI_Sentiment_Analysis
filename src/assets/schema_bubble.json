@@ -1,0 +1,14 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "TF-IDF term relevance per survey question.",
+  "data": { "url": "data/out_tfidf_per_question.csv" },
+  "mark": { "type": "circle", "opacity": 0.8 },
+  "encoding": {
+    "x": { "field": "question", "type": "nominal", "title": "Question" },
+    "y": { "field": "term", "type": "nominal", "title": "Term" },
+    "size": { "field": "tfidf_score", "type": "quantitative", "title": "TF-IDF" },
+    "color": { "field": "question", "type": "nominal", "legend": null },
+    "tooltip": [{ "field": "question" }, { "field": "term" }, { "field": "tfidf_score" }]
+  },
+  "config": { "view": { "stroke": null } }
+}

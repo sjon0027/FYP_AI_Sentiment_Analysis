@@ -9,6 +9,7 @@
     <!-- Navigation -->
     <nav class="space-x-6 hidden sm:block">
       <router-link to="/FYP_2025/" class="btn">Dashboard</router-link>
+      <router-link to="/FYP_2025/test" class="btn">Testing</router-link>
       <router-link to="/FYP_2025/fit4701" class="btn">FIT4701</router-link>
       <router-link to="/FYP_2025/about" class="btn">About</router-link>
       <router-link to="/FYP_2025/contact" class="btn">Contact</router-link>
