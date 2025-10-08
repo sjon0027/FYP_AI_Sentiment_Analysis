@@ -1,0 +1,106 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Scatter + average line comparing pairs of AI perception questions.",
+  "data": {
+    "url": "data/scaled_responses_sorted.json",
+    "format": {
+      "type": "json"
+    }
+  },
+
+  "params": [
+    {
+      "name": "selectedPair",
+      "value": "q1 vs q2",
+      "bind": {
+        "input": "select",
+        "options": ["12", "13", "21", "23", "31", "32"],
+        "labels": [
+          "Feeling (X) vs Familiarity (Y)",
+          "Feeling (X) vs Trust (Y)",
+          "Familiarity (X) vs Feeling (Y)",
+          "Familiarity (X) vs Trust (Y)",
+          "Trust (X) vs Feeling (Y)",
+          "Trust (X) vs Familiarity (Y)"
+        ],
+        "name": "Compare: "
+      }
+    }
+  ],
+
+  "transform": [
+    {
+      "calculate": "selectedPair == '12' ? datum.q1 : selectedPair == '13' ? datum.q1 : selectedPair == '21' ? datum.q2 : selectedPair == '23' ? datum.q2 : datum.q3",
+      "as": "x_value"
+    },
+    {
+      "calculate": "selectedPair == '12' ? datum.q2 : selectedPair == '32' ? datum.q2 : selectedPair == '21' ? datum.q1 : selectedPair == '31' ? datum.q1 : datum.q3",
+      "as": "y_value"
+    }
+  ],
+
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "opacity": 0.7,
+        "size": 100,
+        "stroke": "black",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "x": {
+          "field": "x_value",
+          "type": "quantitative",
+          "title": "X"
+        },
+        "y": { "field": "y_value", "type": "quantitative", "title": "Y" },
+        "color": {
+          "field": "y_value",
+          "type": "quantitative",
+          "title": "Response (Y)",
+          "scale": { "scheme": "redyellowblue" }
+        },
+        "tooltip": [
+          { "field": "q1", "type": "quantitative", "title": "Feeling (Q1)" },
+          { "field": "q2", "type": "quantitative", "title": "Familiarity (Q2)" },
+          { "field": "q3", "type": "quantitative", "title": "Trust (Q3)" },
+          { "field": "q4", "type": "nominal", "title": "Open Response" }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "aggregate": [
+            { "op": "mean", "field": "y_value", "as": "avg_y" },
+            { "op": "count", "as": "n" }
+          ],
+          "groupby": ["x_value"]
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "color": "orange",
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "x": { "field": "x_value", "type": "quantitative", "scale": { "domain": [0, 10] } },
+        "y": { "field": "avg_y", "type": "quantitative", "scale": { "domain": [0, 10] } },
+        "tooltip": [
+          { "field": "x_value", "title": "X" },
+          { "field": "avg_y", "title": "Y (Average)" },
+          { "field": "n", "title": "Responses" }
+        ]
+      }
+    }
+  ],
+
+  "width": 700,
+  "height": 500,
+  "config": {
+    "axis": { "labelFontSize": 12, "titleFontSize": 14 },
+    "legend": { "labelFontSize": 12, "titleFontSize": 13 }
+  }
+}

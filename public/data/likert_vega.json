@@ -13,7 +13,7 @@
   },
   {
     "question": "AI in law enforcement threatens personal privacy.",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 8,
     "percentage": 25.0
   },
@@ -43,7 +43,7 @@
   },
   {
     "question": "AI in law enforcement reduces my trust because of how personal data is collected and used.",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 5,
     "percentage": 15.6
   },
@@ -73,7 +73,7 @@
   },
   {
     "question": "AI in law enforcement reduces my trust because of increased monitoring (e.g., facial recognition, tracking).",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 8,
     "percentage": 25.0
   },
@@ -103,7 +103,7 @@
   },
   {
     "question": "There is not enough accountability for how AI is used in law enforcement.",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 7,
     "percentage": 21.9
   },
@@ -133,7 +133,7 @@
   },
   {
     "question": "If an AI system makes an incorrect or unfair decision, it should be easy for people to challenge or appeal that decision.",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 3,
     "percentage": 9.7
   },
@@ -163,7 +163,7 @@
   },
   {
     "question": "AI decisions in policing should always be subject to human review.",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 0,
     "percentage": 0.0
   },
@@ -193,7 +193,7 @@
   },
   {
     "question": "I find it easy to access and understand information about how AI is being used by law enforcement in Australia.",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 14,
     "percentage": 43.8
   },
@@ -223,7 +223,7 @@
   },
   {
     "question": "Information about how AI is used in law enforcement should be easily accessible to the public.",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 2,
     "percentage": 6.2
   },
@@ -253,7 +253,7 @@
   },
   {
     "question": "The government should involve the public in decisions about how AI is used in law enforcement.",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 6,
     "percentage": 18.8
   },
@@ -283,7 +283,7 @@
   },
   {
     "question": "I believe AI could reduce human bias in policing compared to traditional methods.",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 9,
     "percentage": 28.1
   },
@@ -313,7 +313,7 @@
   },
   {
     "question": "AI decision-making can reinforce bias or discrimination.",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 9,
     "percentage": 28.1
   },
@@ -343,7 +343,7 @@
   },
   {
     "question": "AI increases the risk of misuse or abuse of power.",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 9,
     "percentage": 28.1
   },
@@ -373,7 +373,7 @@
   },
   {
     "question": "I believe there are adequate legal safeguards in Australia to regulate the use of AI in policing and security.",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 13,
     "percentage": 40.6
   },
@@ -403,7 +403,7 @@
   },
   {
     "question": "I believe AI can make law enforcement more effective in preventing crime.",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 11,
     "percentage": 34.4
   },
@@ -433,7 +433,7 @@
   },
   {
     "question": "I would feel safer if AI technologies were widely used in national security in Australia.",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 14,
     "percentage": 43.8
   },
@@ -463,7 +463,7 @@
   },
   {
     "question": "I am more concerned about the use of AI by law enforcement than its use in other areas (e.g., healthcare, education, business",
-    "type": "Neither agree nor disagree",
+    "type": "Neutral",
     "value": 9,
     "percentage": 28.1
   },

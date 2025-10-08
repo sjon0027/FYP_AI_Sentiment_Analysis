@@ -1,0 +1,127 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "Interactive diverging stacked bar chart showing sentiment distributions per question, centered around neutral responses.",
+  "data": {
+    "url": "data/likert_vega.json",
+    "format": {
+      "type": "json"
+    }
+  },
+  "params": [
+    {
+      "name": "selectedQuestion",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All",
+          "AI in law enforcement threatens personal privacy.",
+          "AI in law enforcement reduces my trust because of how personal data is collected and used."
+        ],
+        "labels": ["All", "Privacy threat", "Trust reduction"]
+      }
+    },
+    {
+      "name": "sortOrder",
+      "value": "descending",
+      "bind": {
+        "input": "radio",
+        "options": ["ascending", "descending"],
+        "labels": ["Negative → Positive", "Positive → Negative"]
+      }
+    }
+  ],
+  "transform": [
+    {
+      "calculate": "if(datum.type === 'Strongly disagree',-2,0) + if(datum.type==='Disagree',-1,0) + if(datum.type =='Neither agree nor disagree',0,0) + if(datum.type ==='Agree',1,0) + if(datum.type ==='Strongly agree',2,0)",
+      "as": "q_order"
+    },
+    {
+      "calculate": "if(datum.type === 'Disagree' || datum.type === 'Strongly disagree', datum.percentage,0) + if(datum.type === 'Neither agree nor disagree', datum.percentage / 2,0)",
+      "as": "signed_percentage"
+    },
+    { "stack": "percentage", "as": ["v1", "v2"], "groupby": ["question"] },
+    {
+      "joinaggregate": [
+        {
+          "field": "signed_percentage",
+          "op": "sum",
+          "as": "offset"
+        }
+      ],
+      "groupby": ["question"]
+    },
+    { "calculate": "datum.v1 - datum.offset", "as": "nx" },
+    { "calculate": "datum.v2 - datum.offset", "as": "nx2" },
+    {
+      "aggregate": [{ "op": "mean", "field": "q_order", "as": "avg_sentiment" }],
+      "groupby": ["question"]
+    },
+    {
+      "lookup": "question",
+      "from": {
+        "data": {
+          "url": "data/likert_vega.json",
+          "format": {
+            "type": "json"
+          }
+        },
+        "key": "question",
+        "fields": ["avg_sentiment"]
+      },
+      "as": ["avg_sentiment"]
+    },
+    {
+      "filter": "selectedQuestion == 'All' || datum.question == selectedQuestion"
+    }
+  ],
+  "mark": { "type": "bar", "cursor": "pointer" },
+  "encoding": {
+    "x": {
+      "field": "nx",
+      "type": "quantitative",
+      "title": "Percentage"
+    },
+    "x2": { "field": "nx2" },
+    "y": {
+      "field": "question",
+      "type": "nominal",
+      "title": "Question",
+      "sort": { "field": "avg_sentiment", "order": "ascending" },
+      "axis": {
+        "offset": 5,
+        "ticks": false,
+        "minExtent": 60,
+        "domain": false
+      }
+    },
+    "color": {
+      "field": "type",
+      "type": "nominal",
+      "title": "Response",
+      "scale": {
+        "domain": [
+          "Strongly disagree",
+          "Disagree",
+          "Neither agree nor disagree",
+          "Agree",
+          "Strongly agree"
+        ],
+        "range": ["#c30d24", "#f3a583", "#cccccc", "#94c6da", "#1770ab"],
+        "type": "ordinal"
+      },
+      "legend": { "title": "Response Type" }
+    },
+    "tooltip": [
+      { "field": "question", "type": "nominal", "title": "Question" },
+      { "field": "type", "type": "nominal", "title": "Response" },
+      { "field": "value", "type": "quantitative", "title": "Count" },
+      { "field": "percentage", "type": "quantitative", "title": "Percentage", "format": ".1f" }
+    ]
+  },
+  "config": {
+    "view": { "stroke": "transparent" },
+    "axis": { "labelFontSize": 12, "titleFontSize": 13 },
+    "legend": { "labelFontSize": 11, "titleFontSize": 12 }
+  }
+}

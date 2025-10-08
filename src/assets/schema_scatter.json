@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "Scatter plot of overall feeling vs familiarity, hover to see open-ended responses",
+  "data": {
+    "url": "data/scaled_responses_sorted.json",
+    "format": {
+      "type": "json"
+    }
+  },
+  "mark": {
+    "type": "point",
+    "tooltip": true,
+    "size": 100
+  },
+  "encoding": {
+    "x": {
+      "field": "q1",
+      "type": "quantitative",
+      "title": "Q1: Overall Feeling",
+      "scale": { "domain": [0, 10] }
+    },
+    "y": {
+      "field": "q3",
+      "type": "quantitative",
+      "title": "Q3: Trust",
+      "scale": { "domain": [0, 10] }
+    },
+    "color": {
+      "field": "q2",
+      "type": "quantitative",
+      "title": "Q2: Familiarity",
+      "scale": { "scheme": "spectral" }
+    },
+    "tooltip": [
+      { "field": "q1", "type": "quantitative", "title": "Q1: Overall Feeling" },
+      { "field": "q2", "type": "quantitative", "title": "Q2: Familiarity" },
+      { "field": "q3", "type": "quantitative", "title": "Q3: Trust" },
+      { "field": "q4", "type": "nominal", "title": "Q4: Open-Ended Response" }
+    ]
+  },
+  "width": 600,
+  "height": 400
+}

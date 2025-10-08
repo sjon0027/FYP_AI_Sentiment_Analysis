@@ -1,0 +1,45 @@
+{
+  "Overall, how do you feel about the use of AI technologies in Australian law enforcement and national security?": [
+    4, 5, 6, 6, 6, 7, 6, 3, 5, 10, 6, 8, 5, 8, 6, 7, 6, 7, 6, 5, 4, 3, 9, 5, 8, 6, 0, 5, 0, 3, 5, 5
+  ],
+  "How familiar are you with how AI is currently used by Australian law enforcement?": [
+    1, 0, 2, 2, 3, 3, 0, 3, 3, 5, 1, 2, 5, 4, 2, 7, 3, 5, 1, 3, 3, 0, 5, 6, 1, 2, 5, 2, 1, 7, 0, 2
+  ],
+  "How much do you trust Australian law enforcement agencies to use AI technologies responsibly?": [
+    3, 7, 3, 5, 5, 4, 4, 4, 5, 9, 5, 8, 3, 7, 1, 7, 5, 6, 1, 6, 5, 2, 10, 3, 4, 0, 0, 6, 0, 3, 1, 5
+  ],
+  "In your own words how do you feel about the use of AI by law enforcement (police, security) in Australia?": [
+    "",
+    "It is a good idea but should only be used after alot of checking and ensure that the ai give the best result",
+    "It could be helpful and make it easier to catch criminals or analyse data but it needs to be used ethically without be discriminatory or having inbuilt biases",
+    "Can we used effectively, could also be abused. Unsure",
+    "it can be helpful but only if the use is limited",
+    "I think it a good idea especially with facial recognition ",
+    "",
+    "If proper protocols aren't build in, integrating AI into law enforcement could be a slippery slope into mass surveillance and discriminatory policing.",
+    "Following the debacle with Robodebt , I am concerned if law enforcement relies on AI. However there are advantages to AI in law enforcement as AI can analyse data across systems which can assist with law enforcement. Thus I support use of AI for intelligence gathering. However I believe that government should complement with review by humans. ",
+    "I think it will create efficiencies. Allow police to concentrate on actual policing rather than paperwork. ",
+    "",
+    "I think if it can help the public be safer overall then that's a great outcome. ",
+    "I see both pros and cons - pros you can find people, things etc. However, I see a the potential of linking data sets, whereby seemingly innocuous laws change giving greater power to law enforcement. While we are in a stable democracy, that is ok. If that were to change I would not be supportive. ",
+    "I’m okay with police using it for enforcement. If people aren’t doing the wrong thing they shouldn’t have to worry. Privacy would be a concern though",
+    "Apprehensive ",
+    "As long as it is used responsibly and in the public interest, with the appropriate checks and balances, I am comfortable ",
+    "I’m a bit nervous about the data they’d have access to and my privacy",
+    "",
+    "Should complement not replace human capability. Based on ethical principles with transparency, accountability and governance oversight. ",
+    "AI should be used appropriately.",
+    "Can be used however there lies the risk of sensitive data at risk",
+    "Worried",
+    "Police need all the help that they can get.. I’m happy to trade off civil liberties and privacy it it meant that we have a safer society to live in ",
+    "Algorithm in AI can be a “black box “ making it difficult for courts to scrutinise reasoning ",
+    "If there are tight controls then I’m open to it ",
+    "I think it is good to have better technology but it is worrying to have that same technology be too aware of me.",
+    "Concerning",
+    "I don’t trust AI too much because of too many loopholes etc. it can be really good for security but will need a lot of research around this before using ",
+    "Terrible idea, only need to look at how project nimbus and palantir operates in Palestine and other countries to see that this is a bad idea. Surveillance without moderation or oversight will result in abuse of power.",
+    "I don't believe that there is sufficient transparency in how Australian police and security are allowed to use AI in their operations. Even if it was sufficiently transparent (according both to law and public interest), I'm not confident that this information would be user-friendly. The use of AI as a predictive technology for law enforcement purposes is still significantly under-defined, which leaves open many opportunities for abuse and misuse. Obviously this is bad for citizens (and also law enforcement & security agents themselves, who are often forgotten in this debate) but it also means that any genuinely good outcomes that might come of its use (e.g. intercepting organised crime) can be negated or reversed later in court, when laws and regulations mature.",
+    "I’m not too familiar with the ways that law enforcement uses AI. AI can be inaccurate at times so I would not be too keen on law enforcement using it. ",
+    "I think Australia lags behind comperable countries when it combes to AI technology, infrastructure and leadership to be as effective as other countries in using it in law enforcement. Especially compared to other advanced economies in North America, Asia, and Europe."
+  ]
+}
