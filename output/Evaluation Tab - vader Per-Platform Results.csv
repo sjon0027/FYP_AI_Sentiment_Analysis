@@ -1,0 +1,3 @@
+platform,n,neg,neu,pos,model_vs_human_acc
+twitter,9,2,1,6,0.333333
+youtube,42,14,5,23,0.428571
