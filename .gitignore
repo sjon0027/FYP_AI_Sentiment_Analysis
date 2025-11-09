@@ -2,3 +2,4 @@
 .env
 chrome-win64/
 chromedriver-win64/
+output/ycs_unpacked/
