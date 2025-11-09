@@ -1,2 +1,4 @@
 .venv/
 .env
+chrome-win64/
+chromedriver-win64/
